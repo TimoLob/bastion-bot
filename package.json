@@ -27,7 +27,8 @@
 		"debug": "^4.3.4",
 		"discord.js": "^13.6.0",
 		"dotenv": "^16.0.1",
-		"node-fetch": "^2.6.7",
+		"got": "^11.8.3",
+		"got-fetch": "^4.0.4",
 		"reflect-metadata": "^0.1.13",
 		"supports-color": "^9.2.2",
 		"tsyringe": "^4.6.0",
@@ -39,7 +40,6 @@
 		"@types/debug": "^4.1.7",
 		"@types/jest": "^27.5.1",
 		"@types/node": "^16.11.35",
-		"@types/node-fetch": "^2.6.1",
 		"jest": "^28.1.0",
 		"ts-jest": "^28.0.2"
 	},

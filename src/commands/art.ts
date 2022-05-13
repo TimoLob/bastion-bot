@@ -2,11 +2,11 @@ import { SlashCommandBuilder, SlashCommandStringOption } from "@discordjs/builde
 import { Static } from "@sinclair/typebox";
 import { RESTPostAPIApplicationCommandsJSONBody } from "discord-api-types/v9";
 import { CommandInteraction } from "discord.js";
-import fetch from "node-fetch";
 import { inject, injectable } from "tsyringe";
 import { getCard, inferInputType } from "../card";
 import { Command } from "../Command";
 import { CardSchema } from "../definitions";
+import fetch from "../fetch";
 import { LocaleProvider } from "../locale";
 import { getLogger, Logger } from "../logger";
 import { Metrics } from "../metrics";
