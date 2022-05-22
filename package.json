@@ -44,6 +44,7 @@
 		"ts-jest": "^28.0.2"
 	},
 	"resolutions": {
+		"@discordjs/builders": "0.14.0-dev.1653091712-fdeac9d",
 		"@types/node": "^16.11.36"
 	},
 	"jest": {
